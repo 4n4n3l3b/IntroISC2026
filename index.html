@@ -1,11 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprende Idiomas de Verdad | Método de Inmersión Natural</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Mi sitio web</h1>
+
+  <!-- Navegación -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">Polyglot<span>Flow</span></a>
+      <nav class="nav-links">
+        <a href="#metodo">El Método</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#cta" class="btn-secondary">Empezar Ahora</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="badge">Olvídate de memorizar gramática</span>
+        <h1>La forma más rápida y natural de hablar un nuevo idioma</h1>
+        <p>Aprende mediante inmersión contextual, repetición espaciada y práctica conversacional desde el primer día.</p>
+        <form class="hero-form" onsubmit="event.preventDefault();">
+          <input type="email" placeholder="Ingresa tu correo electrónico" required>
+          <button type="submit" class="btn-primary">Probar Clase Gratis</button>
+        </form>
+        <p class="subtext">✓ Sin tarjeta de crédito • 7 días de acceso completo</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Método -->
+  <section id="metodo" class="features">
+    <div class="container">
+      <h2 class="section-title">¿Por qué este método sí funciona?</h2>
+      <p class="section-subtitle">Aprender un idioma no es una materia escolar, es una habilidad práctica.</p>
+      
+      <div class="grid-3">
+        <div class="card">
+          <div class="icon">🎧</div>
+          <h3>Inmersión Comprensible</h3>
+          <p>Escucha y lee contenido adaptado a tu nivel exacto para que adquieras el vocabulario de forma intuitiva.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🧠</div>
+          <h3>Repetición Espaciada (SRS)</h3>
+          <p>Algoritmos diseñados para mostrarte las palabras justo antes de que las olvides, fijándolas en la memoria a largo plazo.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🗣️</div>
+          <h3>Práctica Activa desde el Día 1</h3>
+          <p>Pierde el miedo a hablar con ejercicios de producción guiada y feedback instantáneo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="cta" class="cta-section">
+    <div class="container">
+      <h2>¿Listo para hablar con fluidez?</h2>
+      <p>Únete a miles de estudiantes que ya dominan su segundo idioma.</p>
+      <a href="#" class="btn-primary btn-large">Comenzar Gratis Hoy</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2026 PolyglotFlow. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
